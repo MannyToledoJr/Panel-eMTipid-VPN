@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity
 		AppUpdater appUpdater = new AppUpdater(this);
 		appUpdater.setDisplay(Display.DIALOG);
 		appUpdater.setUpdateFrom(UpdateFrom.JSON);
-		appUpdater.setUpdateJSON("https://raw.githubusercontent.com/Mazeu31/eMTipid-VPN/master/app/updates.json");
+		appUpdater.setUpdateJSON("https://raw.githubusercontent.com/MannyToledoJr/Panel-eMTipid-VPN/master/app/src/main/res/raw/updates.json");
 		appUpdater.setTitleOnUpdateAvailable("Update available");
 		appUpdater.setContentOnUpdateAvailable("Check out the latest version available of my app!");
 		appUpdater.setTitleOnUpdateNotAvailable("Update not available");
